@@ -1,4 +1,3 @@
-/* eslint-disable max-lines-per-function */
 import type { ConfigContext, ExpoConfig } from '@expo/config';
 import type { AppIconBadgeConfig } from 'app-icon-badge/types';
 
@@ -34,9 +33,11 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   newArchEnabled: true,
   updates: {
     fallbackToCacheTimeout: 0,
+    url: `https://u.expo.dev/${Env.EAS_PROJECT_ID}`,
   },
   assetBundlePatterns: ['**/*'],
   ios: {
+    runtimeVersion: { policy: 'appVersion' },
     supportsTablet: true,
     bundleIdentifier: Env.BUNDLE_ID,
     infoPlist: {
@@ -52,6 +53,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
       backgroundColor: '#2E3C4B',
     },
     package: Env.PACKAGE,
+    runtimeVersion: '1.0.0',
   },
   web: {
     favicon: './assets/favicon.png',

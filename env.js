@@ -38,8 +38,9 @@ require('dotenv').config({
 const BUNDLE_ID = 'com.myapp'; // ios bundle id
 const PACKAGE = 'com.myapp'; // android package name
 const NAME = 'MyApp'; // app name
-const EXPO_ACCOUNT_OWNER = 'expo-owner'; // expo account owner
-const EAS_PROJECT_ID = 'c3e1075b-6fe7-4686-aa49-35b46a229044'; // eas project id
+const EXPO_ACCOUNT_OWNER = 'maxmaxmaxmexlink'; // expo account owner
+// Set to the EAS project ID created for @maxmaxmaxmexlink/obytesapp
+const EAS_PROJECT_ID = '46ee213c-62fc-4f99-9fc0-8ed783179411'; // eas project id
 const SCHEME = 'MyApp'; // app scheme
 
 /**

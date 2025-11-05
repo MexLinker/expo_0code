@@ -1,5 +1,7 @@
 <h1 align="center">MyApp — React Native (Expo Router)</h1>
 
+> have fun there!
+
 > Production-ready mobile starter based on the Obytes Starter, with React Query, theming, i18n, and a configurable data tab for a Word Search server.
 
 ## Overview
