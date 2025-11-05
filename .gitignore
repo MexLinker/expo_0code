@@ -1,0 +1,47 @@
+## Node & Package Managers
+node_modules/
+npm-debug.*
+pnpm-debug.log*
+yarn-error.log
+
+## Expo & Metro
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+## React Native (Android/iOS)
+android/.gradle/
+android/build/
+android/app/build/
+ios/build/
+ios/Pods/
+
+## Build Artifacts
+*.apk
+*.aab
+*.orig.*
+
+## Keystores & Credentials
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+## Coverage
+coverage/
+
+## Logs
+*.log
+
+## macOS
+.DS_Store
+
+## Env files
+.env.local
+.env.*
+!/.env.development
+!/.env.staging
+!/.env.production
