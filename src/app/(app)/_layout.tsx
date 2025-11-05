@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unstable-nested-components */
 import { Link, Redirect, SplashScreen, Tabs } from 'expo-router';
 import React, { useCallback, useEffect } from 'react';
 
@@ -54,14 +53,15 @@ export default function TabLayout() {
       />
 
       <Tabs.Screen
-        name="style"
+        name="favoritte"
         options={{
-          title: 'Style',
+          title: 'favoritte',
           headerShown: false,
           tabBarIcon: ({ color }) => <StyleIcon color={color} />,
-          tabBarButtonTestID: 'style-tab',
+          tabBarButtonTestID: 'favoritte-tab',
         }}
       />
+
       <Tabs.Screen
         name="settings"
         options={{

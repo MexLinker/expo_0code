@@ -27,3 +27,8 @@ export type HealthResponse = {
   port?: number;
   db?: string;
 };
+
+export type UpdateResponse = {
+  table: string;
+  updated: number;
+};
